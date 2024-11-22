@@ -24,7 +24,7 @@ const HeroContainer = () => {
  }}
  modules={[EffectCreative]}
  className='mySwiperS'
- Loop={true}
+ loop={true}
  autoplay={
     {
         delay:250,

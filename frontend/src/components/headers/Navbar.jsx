@@ -86,7 +86,7 @@ const  [user,setUser]=useState(true);
 
   //logout
   const handelLogout =()=>{
-    console.log("logout")
+    // console.log("logout")
   }
 
   return (
@@ -199,7 +199,9 @@ const  [user,setUser]=useState(true);
 
 {
   user && <li >
-    <NavLink onClick={handelLogout} className = {'font-bold px-3 py-2 bg-secondary text-white rounded-xl'}>Logout</NavLink>
+    <a href="/login"  className = {'font-bold px-3 py-2 bg-secondary text-white rounded-xl'}>LogIn</a>
+   
+    {/* <NavLink onClick={handelLogout} className = {'font-bold px-3 py-2 bg-secondary text-white rounded-xl'}>Logout</NavLink> */}
   </li>
 }
              
